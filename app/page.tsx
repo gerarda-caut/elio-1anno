@@ -79,7 +79,7 @@ alt="Ruote e bandiere" className="w-full h-12 object-cover"/>
   <img
     src={"/" + mesi[current]}
     alt={"Mese " + (current + 1)}
-    className="w-full max-h-[55vh] object-contain"/>
+    className="w-full max-h-[45vh] md:max-h-[55vh] object-contain"/>
 <div className="text-center mt-4 mb-8">
 <h3 className="text-2xl font-bold text-zinc-800">
 🏁 Tappa {current + 1}
@@ -141,7 +141,7 @@ width: `${((current + 1) / mesi.length) * 100}%`,
       <p>📍 Via Michelangelo Buonarroti 63</p>
     </div>
 <div className="flex justify-center">
-      <a href="https://wa.me/39TUONUMERO?text=Ciao!%20Parteciper%C3%B2%20con%20piacere%20al%20Gran%20Premio%20di%20Elio"
+      <a href="https://wa.me/393404167306?text=Ciao!%20Parteciper%C3%B2%20con%20piacere%20al%20Gran%20Premio%20di%20Elio"
 target="_blank" rel="noopener noreferrer"className="inline-block mt-8 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold shadow-lg transition"> 
 ✅ Conferma presenza
 </a>
