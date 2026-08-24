@@ -58,7 +58,7 @@ backgroundRepeat: "repeat",
 opacity: 1,
 }}
 >
-<div className="min-h-screen bg-white/90">
+<div className="bg-white/90">
 <img src="https://tse2.mm.bing.net/th/id/OIP.aA2oTvr_QZtuYJJhQwpyRQHaF_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
 alt="Ruote e bandiere" className="w-full h-12 object-cover"/>
      <section className="bg-gradient-to-r from-red-700 via-red-500 to-orange-500 text-white text-center py-10 md:py-16">
@@ -117,16 +117,20 @@ width: `${((current + 1) / mesi.length) * 100}%`,
             </button>
           </div>
       </section>
-<section className="mt-16 mb-20 px-6">
-  <div className="max-w-3xl mx-auto bg-white rounded-3xl shadow-xl p-10 text-center">
+<section className="mb-8 px-6">
+  <div className="max-w-3xl mx-auto bg-white rounded-3xl shadow-xl p-6 text-center">
 
-    <div className="text-5xl mb-4">🏁</div>
+    <div className="max-w-sm mx-auto mb-8">
+	<h2 className="text-4xl font-bold text-red-600 mb-4">
+     Traguardo raggiunto!
+</h2>
+      <img
+        src="/compleanno.jpeg"
+        alt="Elio 1 anno"
+        className="text-4xl font-bold text-red-600 mb-4"/>
+    
 
-    <h2 className="text-4xl font-bold text-red-600 mb-4">
-      Traguardo raggiunto!
-    </h2>
-
-    <p className="text-2xl mb-8">
+    <p className="text-xl md:text-2xl mb-6 text-center whitespace-nowrap">
       🎂 Elio compie 1 anno 🎂
     </p>
 
@@ -137,17 +141,27 @@ width: `${((current + 1) / mesi.length) * 100}%`,
 
     <div className="space-y-4 text-xl">
       <p>📅 3 Settembre 2026</p>
-      <p>🕒 Ore 17:00</p>
+      <p>🕒 Ore 18:00</p>
       <p>📍 Via Michelangelo Buonarroti 63</p>
     </div>
-<div className="flex justify-center">
-      <a href="https://wa.me/393404167306?text=Ciao!%20Parteciper%C3%B2%20con%20piacere%20al%20Gran%20Premio%20di%20Elio"
-target="_blank" rel="noopener noreferrer"className="inline-block mt-8 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold shadow-lg transition"> 
-✅ Conferma presenza
-</a>
-</div>
+
+    <div className="flex justify-center">
+      <a
+        href="https://wa.me/393404167306?text=Ciao!%20Parteciper%C3%B2%20con%20piacere%20al%20Gran%20Premio%20di%20Elio"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block mt-8 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold shadow-lg transition"
+      >
+        ✅ Conferma presenza
+      </a>
+    </div>
+
+  </div>
   </div>
 </section>
+<div>
+<img src="https://tse2.mm.bing.net/th/id/OIP.aA2oTvr_QZtuYJJhQwpyRQHaF_?r=0&amp;rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3" alt="Ruote e bandiere" class="w-full h-12 object-cover"/>
+</div>
 </div>
     </main>
   );
