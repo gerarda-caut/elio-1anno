@@ -160,7 +160,7 @@ width: `${((current + 1) / mesi.length) * 100}%`,
   </div>
 </section>
 <div>
-<img src="https://tse2.mm.bing.net/th/id/OIP.aA2oTvr_QZtuYJJhQwpyRQHaF_?r=0&amp;rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3" alt="Ruote e bandiere" class="w-full h-12 object-cover"/>
+<img src="https://tse2.mm.bing.net/th/id/OIP.aA2oTvr_QZtuYJJhQwpyRQHaF_?r=0&amp;rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3" alt="Ruote e bandiere" className="w-full h-12 object-cover"/>
 </div>
 </div>
     </main>
