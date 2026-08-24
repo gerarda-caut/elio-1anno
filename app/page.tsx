@@ -37,7 +37,7 @@ export default function Home() {
  useEffect(() => {
 const timer = setInterval(() => {
 setCurrent((prev) => (prev + 1) % mesi.length);
-}, 3000);
+}, 6000);
  
 return () => clearInterval(timer);
 }, []);
