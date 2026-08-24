@@ -66,7 +66,7 @@ alt="Ruote e bandiere" className="w-full h-12 object-cover"/>
   Gran Premio di Elio
 </h1>
 
-       <p className="mt-2 text-gray-600">
+       <p className="mt-2 text-black-600">
           Il viaggio verso il mio primo compleanno 🎂
         </p>
       </section>
@@ -85,12 +85,12 @@ alt="Ruote e bandiere" className="w-full h-12 object-cover"/>
 🏁 Tappa {current + 1}
 </h3>
  
-<p className="text-lg text-gray-600">
+<p className="text-lg text-black-600">
 Tappa {current + 1} di {mesi.length}
 </p>
 </div>
 <div className="mt-2">
-<div className="w-full bg-gray-200 rounded-full h-2 mt-4">
+<div className="w-full bg-black-200 rounded-full h-2 mt-4">
 <div
 className="bg-red-600 h-2 rounded-full"
 style={{
